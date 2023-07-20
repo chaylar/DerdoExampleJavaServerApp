@@ -18,8 +18,8 @@ import java.io.InputStream;
 
 public class FileHelper {
 
-    private final String blobConnectionStr = "DefaultEndpointsProtocol=https;AccountName=derdstorage;AccountKey=eTbA1RI6dBsCegylwGb02jGjtwYPsELYKPGz0o3YgOFIilJyD2wfa49Sy9FTOIwa+gF/BS6yvtu+tPR5Dxor8A==;EndpointSuffix=core.windows.net";
-    private final String blobContainerName = "derdcontainer";
+    private final String blobConnectionStr = "";
+    private final String blobContainerName = "";
 
     public String uploadFile(MultipartFile file) throws Exception {
         return uploadToBlob(file);
