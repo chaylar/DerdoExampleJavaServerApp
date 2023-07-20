@@ -17,8 +17,8 @@ public class NotificationHttpHelper {
 
     //
     private static final String FCM_URL = "https://fcm.googleapis.com/fcm/send";
-    private static final String KEY_PREFIX_PART = "key=AAAAuhDCHSk:APA91bEvMov7NI8MIiUCo-e3xlubwZkbxTJhtypEYIBGX4rakZNJZMM_jPee0iAaKbffsOsQxeJ7E7xirqaLOTjXfhVoEUOqCYdul0qMV6HVxxzwNGx22yPGll3AG1ACBSOB4v62oF4e";
-    private static final String SENDER_ID = "799145073961";
+    private static final String KEY_PREFIX_PART = "";
+    private static final String SENDER_ID = "";
 
     private JSONObject authorize(String token) throws Exception {
         URL url = new URL(AUTH_URL);
